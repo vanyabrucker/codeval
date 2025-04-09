@@ -202,6 +202,9 @@ def analyze_file(file_path, directory_graph):
 
             Provide your analysis in the following format:
 
+            **0. File name of analyzed source file**
+            Echo the file name of the analyzed source file
+
             **1. Summary**
             A brief overview of the code and its purpose based on your analysis.
 
