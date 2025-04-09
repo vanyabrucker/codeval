@@ -1,0 +1,5 @@
+openai~=1.62.0
+pydantic~=2.10.6
+gql~=3.5.2
+python-dotenv~=1.0.1
+requests_toolbelt~=1.0.0
