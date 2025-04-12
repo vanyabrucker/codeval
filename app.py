@@ -450,9 +450,11 @@ if __name__ == "__main__":
 
                 print("Create issue in Linear?")
 
-                if input("y/n: ") == "y":
+                if input("y/N: ") == "y":
                     # Create the issue in Linear
-                    create_issue(title=issue["title"], description=issue["description"], priority=issue["priority"], team_id=team_id)
+                    create_issue(title=issue_in.title, description=issue_in.description, priority=issue_in.priority, team_id=team_id)
+                    print("Linear issue created.")
                 else:
+                    print("No Linear issue created.")
                     continue
 
